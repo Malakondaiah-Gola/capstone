@@ -1,0 +1,9 @@
+<!-- testng.xml -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BaseTest">
+    <test name="ECommerceTest">
+        <classes>
+            <class name="com.capstone.tests.ECommerceTest"/>
+        </classes>
+    </test>
+</suite>

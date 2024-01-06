@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [BaseTest]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [ECommerceTest]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="ECommerceTest(failed)">
     <classes>
       <class name="com.capstone.tests.ECommerceTest">
@@ -12,4 +12,4 @@
       </class> <!-- com.capstone.tests.ECommerceTest -->
     </classes>
   </test> <!-- ECommerceTest(failed) -->
-</suite> <!-- Failed suite [BaseTest] -->
+</suite> <!-- Failed suite [ECommerceTest] -->

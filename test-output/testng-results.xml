@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-06T21:48:01 IST" name="ECommerceTest" finished-at="2024-01-06T21:48:07 IST" duration-ms="6029">
+  <suite started-at="2024-01-06T22:06:32 IST" name="ECommerceTest" finished-at="2024-01-06T22:06:38 IST" duration-ms="5584">
     <groups>
     </groups>
-    <test started-at="2024-01-06T21:48:01 IST" name="ECommerceTest" finished-at="2024-01-06T21:48:07 IST" duration-ms="6029">
+    <test started-at="2024-01-06T22:06:32 IST" name="ECommerceTest" finished-at="2024-01-06T22:06:38 IST" duration-ms="5584">
       <class name="com.capstone.tests.ECommerceTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.capstone.tests.ECommerceTest@a4add54]" started-at="2024-01-06T21:47:55 IST" name="setUp" finished-at="2024-01-06T21:48:01 IST" duration-ms="6169" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.capstone.tests.ECommerceTest@141e5bef]" started-at="2024-01-06T22:06:27 IST" name="setUp" finished-at="2024-01-06T22:06:32 IST" duration-ms="4837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testECommerceScenario()[pri:0, instance:com.capstone.tests.ECommerceTest@a4add54]" started-at="2024-01-06T21:48:01 IST" name="testECommerceScenario" finished-at="2024-01-06T21:48:07 IST" duration-ms="5974" status="FAIL">
+        <test-method signature="testECommerceScenario()[pri:0, instance:com.capstone.tests.ECommerceTest@141e5bef]" started-at="2024-01-06T22:06:32 IST" name="testECommerceScenario" finished-at="2024-01-06T22:06:38 IST" duration-ms="5515" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(., 'Add to cart')]"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-IL6C7HF', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\LENOVO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 48394e5696356ce4b157915ff1076439
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\LENOVO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed0f024ed6a66dd443a125f019244af
 *** Element info: {Using=xpath, value=//button[contains(., 'Add to cart')]}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-IL6C7HF', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\LENOVO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 48394e5696356ce4b157915ff1076439
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\LENOVO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65144}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ed0f024ed6a66dd443a125f019244af
 *** Element info: {Using=xpath, value=//button[contains(., 'Add to cart')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testECommerceScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.tests.ECommerceTest@a4add54]" started-at="2024-01-06T21:48:07 IST" name="tearDown" finished-at="2024-01-06T21:48:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstone.tests.ECommerceTest@141e5bef]" started-at="2024-01-06T22:06:38 IST" name="tearDown" finished-at="2024-01-06T22:06:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
